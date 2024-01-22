@@ -1,0 +1,7 @@
+django
+whitenoise
+gunicorn
+requests
+datetime
+bs4
+BeautifulSoup
