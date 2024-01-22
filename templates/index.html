@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>template test</title>
+<style>
+    .img{
+        display: flex;
+        
+    }
+    iframe{
+        margin-left: 200px;
+    }
+    html{
+        
+    }
+</style>
+<script>
+</script>
+</head>
+<body style="{{kaminari}}">
+
+
+    <div class="img"><h1>今日の天気 {{wether}} </h1><iframe src="https://utagevideo.sakura.ne.jp/wasuuwasuu/test.html" frameborder="0" width="800px"></iframe>
+</div>
+
+<img src={{image}} alt="" style="width: 300px;">
+</div>
+
+<h1>降水確率</h1>
+<h2>0時から6時　{{a}}</h2>
+<h2>6時から12時　{{b}}</h2>
+<h2>12時から18時　{{c}}</h2>
+<h2>18時から24時　{{d}}</h2>
+
+<h1>運行情報</h1>
+<h2 style="{{kintetsucss}}">近鉄 {{kintetsu}}</h2>
+<h2 style="{{jrcss}}">jr {{jr}}</h2>
+<h2 style="{{keihancss}}">京阪 {{keihan}}</h2>
+
+
+</body>
+</html>
